@@ -12,3 +12,4 @@ adb I 09-21 21:44:01  4080  4080 adb_auth_host.cpp:173] read_key_file '/root/.an
 adb I 09-21 21:44:01  4080  4080 adb_auth_host.cpp:390] adb_auth_inotify_init...
 adb I 09-21 21:44:01  4080  4080 adb_auth_host.cpp:466] Calling send_auth_response
 adb I 09-21 21:44:01  4080  4080 adb_auth_host.cpp:434] Calling send_auth_publickey
+adb I 09-21 22:06:19  4080  4080 adb_auth_host.cpp:466] Calling send_auth_response

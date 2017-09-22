@@ -5,13 +5,17 @@
  */
 
 import React, { Component } from 'react';
-import { AppRegistry } from 'react-native';
+import { AppRegistry, View } from 'react-native';
 import Header from './src/components/header';
+import AlbumList from './src/components/AlbumList';
 
 export default class album extends Component {
   render() {
     return (
-        <Header HeaderText={'Albums'} />
+        <View>
+          <Header HeaderText={'Albums'} />
+          <AlbumList />
+        </View>
     );
   }
 }

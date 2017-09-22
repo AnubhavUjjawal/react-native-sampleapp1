@@ -1,12 +1,12 @@
-import React from "react";
-import { Text, View } from "react-native";
+import React from 'react';
+import { Text, View } from 'react-native';
 
 const Header = (props) => {
 
     const { textStyle, viewStyle } = styles;
     return (
-        <View style= { viewStyle }>
-            <Text style= { textStyle }>{ props.HeaderText }</Text>
+        <View style={viewStyle}>
+            <Text style={textStyle}>{ props.HeaderText }</Text>
         </View>
     );
 
@@ -14,7 +14,7 @@ const Header = (props) => {
 
 //maybe shadow is deprecated in RN latest version
 const styles = {
-    textStyle:{
+    textStyle: {
         fontSize: 28
     },
     viewStyle: {
@@ -24,7 +24,7 @@ const styles = {
         height: 60,
         paddingTop: 15,
         shadowColor: '#000',
-        shadowOffset: {width: 0, height: 2},
+        shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.2,
         elevation: 2,
         position: 'relative'
