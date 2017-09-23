@@ -9,7 +9,6 @@ const Header = (props) => {
             <Text style={textStyle}>{ props.HeaderText }</Text>
         </View>
     );
-
 };
 
 //maybe shadow is deprecated in RN latest version
